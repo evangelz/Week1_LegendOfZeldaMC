@@ -36,7 +36,7 @@ public class PlayerHP : MonoBehaviour {
 			
 			instance.transform.SetParent (health);
 		}
-		maxHealth += number*healthPerHeart;
+		maxHealth += numberOfHearts*healthPerHeart;
 	}
 	
 	public void ModifyHealth(int amount)

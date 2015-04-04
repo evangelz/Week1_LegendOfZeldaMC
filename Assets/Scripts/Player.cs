@@ -7,6 +7,12 @@ public class Player : MonoBehaviour {
 	private float Xaxis;
 	private float Yaxis;
 	public float playerMoveSpeed;
+	private bool disableMove;
+
+	public LayerMask Object;
+
+	private BoxCollider2D boxCollider;
+	private Rigidbody2D rb2D; 
 
 	public enum playerDirection
 	{
@@ -27,7 +33,8 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator>();
-	
+		boxCollider = GetComponent <BoxCollider2D> ();
+		disableMove = false;
 	}
 	
 	// Update is called once per frame
@@ -45,14 +52,15 @@ public class Player : MonoBehaviour {
 		Yaxis = Input.GetAxis ("Vertical")*playerMoveSpeed*Time.deltaTime;
 	}
 
+
 	void movePlayer()
 	{
-		if(!animator.GetBool ("attackUp") && !animator.GetBool ("attackDown") && !animator.GetBool ("attackRight"))
+		if(!animator.GetBool ("attackUp") && !animator.GetBool ("attackDown") && !animator.GetBool ("attackRight") && !disableMove)
 		{
 			movement ();
 		}
 	}
-
+	
 	void movement ()
 	{
 		if (Xaxis != 0 && Yaxis == 0) {
@@ -84,7 +92,7 @@ public class Player : MonoBehaviour {
 			}
 		}
 	}
-
+	
 	void attack()
 	{
 		if (Input.GetKeyDown (KeyCode.X)) 
@@ -135,5 +143,23 @@ public class Player : MonoBehaviour {
 			animator.SetBool ("walkDown", true);
 			Yside = playerYdirection.isDown;
 		}
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag == "Hole")
+		{
+			disableMove = true;
+			animator.SetTrigger("fall");
+			Invoke("respawn",1f);
+		}
+	}
+
+	private void respawn()
+	{
+		this.gameObject.SetActive (false);
+		this.transform.position =  (new Vector2(8, 2));
+		this.gameObject.SetActive (true);
+		disableMove = false;
 	}
 }

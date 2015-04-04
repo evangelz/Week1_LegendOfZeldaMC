@@ -34,7 +34,7 @@ public class PlayerHP : MonoBehaviour {
 			/*int y = Mathf.FloorToInt(hearts.Count/maxHeartsPerRow);
 			int x = hearts.Count - y*maxHeartsPerRow;*/
 			
-			instance.transform.SetParent (health);
+			//instance.transform.SetParent (health);
 		}
 		maxHealth += numberOfHearts*healthPerHeart;
 	}

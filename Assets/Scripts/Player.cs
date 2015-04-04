@@ -151,7 +151,7 @@ public class Player : MonoBehaviour {
 		{
 			disableMove = true;
 			animator.SetTrigger("fall");
-			Invoke("respawn",1f);
+			Invoke("respawn",0.9f);
 		}
 	}
 

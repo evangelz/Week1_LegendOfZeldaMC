@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 815552705cc568846875741b5142c5d7
+timeCreated: 1427876306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FSA_Eyegore_0
+    21300002: FSA_Eyegore_1
+    21300004: FSA_Eyegore_2
+    21300006: FSA_Eyegore_3
+    21300008: FSA_Eyegore_4
+    21300010: FSA_Eyegore_5
+    21300012: FSA_Eyegore_6
+    21300014: FSA_Eyegore_7
+    21300016: FSA_Eyegore_8
+    21300018: FSA_Eyegore_9
+    21300020: FSA_Eyegore_10
+    21300022: FSA_Eyegore_11
+    21300024: FSA_Eyegore_12
+    21300026: FSA_Eyegore_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FSA_Eyegore_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 137
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 135
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 137
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 135
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 76
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_6
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 76
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 78
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 76
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 15
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 15
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 15
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FSA_Eyegore_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 15
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

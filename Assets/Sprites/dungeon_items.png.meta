@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 66e6b42c6d1de884f930084d47e740f6
+timeCreated: 1428029921
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dungeon_items_0
+    21300002: dungeon_items_1
+    21300004: dungeon_items_2
+    21300006: dungeon_items_3
+    21300008: dungeon_items_4
+    21300010: dungeon_items_5
+    21300012: dungeon_items_6
+    21300014: dungeon_items_7
+    21300016: dungeon_items_8
+    21300018: dungeon_items_9
+    21300020: dungeon_items_10
+    21300022: dungeon_items_11
+    21300024: dungeon_items_12
+    21300026: dungeon_items_13
+    21300028: dungeon_items_14
+    21300030: dungeon_items_16
+    21300032: dungeon_items_18
+    21300034: dungeon_items_19
+    21300036: dungeon_items_20
+    21300038: dungeon_items_21
+    21300040: dungeon_items_22
+    21300042: dungeon_items_23
+    21300044: dungeon_items_24
+    21300046: dungeon_items_25
+    21300048: dungeon_items_26
+    21300050: dungeon_items_27
+    21300052: dungeon_items_28
+    21300054: dungeon_items_29
+    21300056: dungeon_items_30
+    21300058: dungeon_items_31
+    21300060: dungeon_items_32
+    21300062: dungeon_items_33
+    21300064: dungeon_items_34
+    21300066: dungeon_items_35
+    21300068: dungeon_items_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dungeon_items_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 358
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 358
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 358
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 358
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 339
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 339
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 255
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 226
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 226
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 226
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 162
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 162
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 162
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 162
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 162
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 105
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 108
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 105
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 105
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_22
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 105
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 73
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 73
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 73
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 54
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 54
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 54
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 42
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 42
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 42
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 33
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_33
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_34
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 33
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 4
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_items_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 4
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

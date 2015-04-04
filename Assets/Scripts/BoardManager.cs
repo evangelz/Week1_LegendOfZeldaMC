@@ -13,8 +13,8 @@ using System.Collections.Generic;
 		
 		private Transform boardHolder;                               
 		private List <Vector3> gridPositions = new List <Vector3> ();  
-		
-		
+		public GameObject[] blocks;
+		public GameObject[] trap;
 
 		void InitialiseList ()
 		{
@@ -56,6 +56,40 @@ using System.Collections.Generic;
 			BoardSetup ();
 			
 			InitialiseList ();
-			
+			generateObjects ();
+			generateTrap ();
 		}
+
+		void generateObjects ()
+		{
+			Instantiate (blocks[0],new Vector3 (3,4,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (3,6,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (4,6,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (5,4,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (5,6,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (6,4,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (7,4,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (7,6,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (8,5,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (9,4,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (9,7,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (10,3,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (10,6,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (10,7,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (11,5,0f), Quaternion.identity);
+			Instantiate (blocks[0],new Vector3 (12,4,0f), Quaternion.identity);
+			Instantiate (blocks[1],new Vector3 (12,6,0f), Quaternion.identity);
+			Instantiate (blocks[1],new Vector3 (12,7,0f), Quaternion.identity);
+			Instantiate (blocks[2],new Vector3 (3,7,0f), Quaternion.identity);
+			Instantiate (blocks[2],new Vector3 (11,6,0f), Quaternion.identity);
+		}
+		
+		void generateTrap()
+		{
+			Instantiate (trap[0],new Vector3 (3,3,0f), Quaternion.identity);
+			Instantiate (trap[0],new Vector3 (3,5,0f), Quaternion.identity);
+			
+		}	
+
+
 	}

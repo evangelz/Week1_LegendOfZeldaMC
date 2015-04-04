@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\MovingObject.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerHP.cs" />
+     <Compile Include="Assets\Scripts\Spike.cs" />
      <Compile Include="Assets\Scripts\followCamera.cs" />
      <Compile Include="Assets\Scripts\polygonGenerator.cs" />
  <Reference Include="UnityEngine.UI">

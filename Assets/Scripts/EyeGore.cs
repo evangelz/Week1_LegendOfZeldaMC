@@ -188,7 +188,7 @@ public class EyeGore : MonoBehaviour {
 
 	void OnTriggerStay2D(Collider2D other)
 	{
-		if (other.tag == "Player") 
+		/*if (other.tag == "Player") 
 		{
 			Debug.DrawLine (startPoint.position, playerPosition.position, Color.red);
 			if (playerPosition.position.x < this.transform.position.x && enemyFaces == enemyState.isLeft) 
@@ -212,7 +212,7 @@ public class EyeGore : MonoBehaviour {
 				patrolMode = false;
 				chaseState ();
 			}
-		} 
+		} */
 	}
 	
 	void OnTriggerExit2D(Collider2D other)

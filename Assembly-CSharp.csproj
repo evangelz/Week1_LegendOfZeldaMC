@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Block.cs" />
      <Compile Include="Assets\Scripts\BoardManager.cs" />
+     <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\EyeGore.cs" />
+     <Compile Include="Assets\Scripts\Floor.cs" />
      <Compile Include="Assets\Scripts\GUI.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Loader.cs" />
@@ -56,6 +58,9 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerHP.cs" />
      <Compile Include="Assets\Scripts\Spike.cs" />
+     <Compile Include="Assets\Scripts\Switch.cs" />
+     <Compile Include="Assets\Scripts\Switch1.cs" />
+     <Compile Include="Assets\Scripts\Switch2.cs" />
      <Compile Include="Assets\Scripts\followCamera.cs" />
      <Compile Include="Assets\Scripts\polygonGenerator.cs" />
  <Reference Include="UnityEngine.UI">

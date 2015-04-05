@@ -81,7 +81,7 @@ using System.Collections.Generic;
 			Instantiate (blocks[1],new Vector3 (12,6,0f), Quaternion.identity);
 			Instantiate (blocks[1],new Vector3 (12,7,0f), Quaternion.identity);
 			Instantiate (blocks[2],new Vector3 (3,7,0f), Quaternion.identity);
-			Instantiate (blocks[2],new Vector3 (11,6,0f), Quaternion.identity);
+			Instantiate (blocks[3],new Vector3 (11,6,0f), Quaternion.identity);
 		}
 		
 		void generateTrap()

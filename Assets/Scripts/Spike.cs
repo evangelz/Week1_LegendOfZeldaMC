@@ -78,11 +78,6 @@ public class Spike : MonoBehaviour {
 
 			}
 		} 
-		else if (other.gameObject.tag == "Player")
-		{
-			boxCollider.enabled=false;
-		}
-		boxCollider.enabled = true;
 	}
 
 	public IEnumerator move(float speed)
